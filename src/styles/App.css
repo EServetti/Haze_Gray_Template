@@ -1,0 +1,122 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* NavBar */
+
+.navbar {
+  background-color: var(--bg-color);
+  padding: 1.5rem 1.5rem;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.navbar-brand {
+  margin-right: auto;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.navbar a {
+  color: var(--text-color);
+  font-family: var(--font-f);
+}
+
+.navbar-toggler {
+  border-color: var(--text-color);
+  color: var(--text-color);
+}
+
+.theme-button {
+  background-color: transparent;
+  border: none;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-nav {
+  gap: 20px;
+}
+
+/* mainContent */
+
+.main-content-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 80px 100px;
+}
+
+.carousel-item {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Footer */
+
+.footer-component {
+  padding: 60px 100px;
+  background-color: #242424;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-component a {
+  color: #ffffff;
+  opacity: 0.7;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-contact-items {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-rows {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+.footer-rows ul {
+  padding: 0;
+}
